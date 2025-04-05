@@ -1,13 +1,7 @@
-#Created by @sarthak1905
-#Author Name-Sarthak Saxena
-#Dated 4th May,2020
-#Contact me on GitHub if you find any glitches or have any recommendations!
-
 import numpy as np
 import random
 
 #Prints the ndarray in format so it is readable(a bit at least)
-
 def Print_Board(board):
     for i in range(9):
         for j in range(9):
@@ -38,41 +32,13 @@ def Find_Empty_Cell(board):
 
 #This function checks the validity of a number at a given position in the puzzle 
 #Done according to sudoku rules
-
 def Check_Validity(board,row,col,num):
-    row_start=(row//3)*3
-    col_start=(col//3)*3
-    if num in board[:,col] or num in board[row,:]:
-        return False
-    if num in board[row_start:row_start+3,col_start:col_start+3]:
-        return False
-    return True
+    #Complete the rest of the code
 
 #Generates an unsolved sudoku board 
-def Generate_Unsolved_Puzzle(board):
-    count=0
-    done = False
-    upper_limit=41
-    while True:   
-        i=random.randint(0,8)
-        j=random.randint(0,8)
-        if count<=upper_limit:
-            if board[i,j]!=0:
-                not_check=board[i,j]
-                board[i,j]=0
-                board_copy=board
-                if Solve_Sudoku(board_copy,not_check):
-                    board[i,j]=not_check
-                    continue
-                row_start=(i//3)*3
-                col_start=(j//3)*3
-                if np.count_nonzero(board[row_start:row_start+3,col_start:col_start+3])<4:
-                        board[i,j]=not_check
-                        continue
-                count+=1
-        else:
-            done=True
-            break
+def Generate_Unsolved_Puzzle(board): 
+    upper_limit=41 # Number of cells to be removed  
+    # Complete the rest of the function
 
 #Input of the row, column and nummber to check is done here
 def Play_Sudoku(Solved_Board,Unsolved_Board):
