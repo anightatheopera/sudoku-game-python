@@ -1,0 +1,12 @@
+﻿ID;LLM;Nome;Tempo;EI;Nivel_Prog;Nivel_Python;Conhece_sudoku;Desc_Sudoku;Dificuldade
+1;Sim;Diogo Rebelo;00:03:47;Sim;4;4;Sim;Jogo ocasionalmente;3
+2;Sim;João Fernandes;00:08:00;Sim;5;4;Sim;Jogo ocasionalmente;2
+3;Sim;José Pacheco;00:04:16;Sim;4;4;Sim;Jogo regularmente;2
+4;Sim;Miguel Guimarães;00:04:19;Sim;4;3;Sim;Jogo ocasionalmente;3
+5;Sim;André Brandão;00:01:28;Sim;4;4;Sim;Nunca joguei mas sabia da existência do jogo;1
+6;Não;Délio Alves;00:21:00;Sim;4;4;Sim;Jogo ocasionalmente;4
+7;Não;Hugo Sá;00:15:00;Sim;3;2;Sim;Nunca joguei mas sabia da existência do jogo;3
+8;Sim;Vasco Rito;00:00:10;Sim;4;4;Sim;Jogo ocasionalmente;2
+9;Sim;Miguel Sousa;00:03:00;Sim;4;4;Sim;Nunca joguei mas sabia da existência do jogo;1
+10;Não;Sérgio Costa;00:18:55;Sim;3;3;Sim;Jogo ocasionalmente;1
+12;Não;Diogo Matos;01:14:00;Sim;5;4;Sim;Nunca joguei mas sabia da existência do jogo;3
